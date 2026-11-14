@@ -1,0 +1,65 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="su_yomDXtdSLg1wcO-gM" name="Page-1">
+    <mxGraphModel dx="1303" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="system" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;fontStyle=1;strokeWidth=2;" value="EASLIS IOIS (Internship Online Information System)" vertex="1">
+          <mxGeometry height="140" width="240" x="480" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="e_admin" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;fontStyle=1;strokeWidth=1.5;" value="Administrator" vertex="1">
+          <mxGeometry height="70" width="140" x="80" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="e_student" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;fontStyle=1;strokeWidth=1.5;" value="Student" vertex="1">
+          <mxGeometry height="70" width="140" x="80" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="e_supervisor" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;fontStyle=1;strokeWidth=1.5;" value="Supervisor" vertex="1">
+          <mxGeometry height="70" width="140" x="80" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="e_org" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;fontStyle=1;strokeWidth=1.5;" value="Organization (Employer)" vertex="1">
+          <mxGeometry height="70" width="140" x="1000" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="e_coord" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;fontStyle=1;strokeWidth=1.5;" value="Coordinator" vertex="1">
+          <mxGeometry height="70" width="140" x="1000" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="e_email" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;fontStyle=1;strokeWidth=1.5;" value="Email/SMTP Service" vertex="1">
+          <mxGeometry height="70" width="140" x="1000" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="e_db" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;fontStyle=1;strokeWidth=1.5;" value="MySQL Database" vertex="1">
+          <mxGeometry height="70" width="140" x="520" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="f1" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontSize=11;" value="Manage users, verify orgs, generate reports, audit logs">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="118" y="170" as="sourcePoint" />
+            <mxPoint x="498" y="385" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f2" edge="1" parent="1" source="e_student" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontSize=11;" target="system" value="Register, browse internships, apply, submit logbooks &amp; reports">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f3" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontSize=11;" value="Review logbooks, evaluate reports, view cohort students">
+          <mxGeometry relative="1" x="0.0019" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="116" y="601" as="sourcePoint" />
+            <mxPoint x="496" y="456" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f4" edge="1" parent="1" source="e_org" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontSize=11;" target="system" value="Register, post internships, review applicants, confirm placements">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f5" edge="1" parent="1" source="e_coord" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontSize=11;" target="system" value="Review applications, shortlist, assign placements">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f6" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontSize=11;" value="Send notifications, OTP, password resets">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="702" y="457" as="sourcePoint" />
+            <mxPoint x="1052" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f7" edge="1" parent="1" source="system" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontSize=11;" target="e_db" value="Store/retrieve all system data">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
